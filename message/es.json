@@ -1,0 +1,36 @@
+{
+  "HeroContent": {
+    "subtitle": "Desarrollador Frontend",
+    "shortPharse": "Me apasiona crear experiencias digitales accesibles y con un diseño que cuida cada detalle."
+  },
+  "AboutMe": {
+    "firstPart": "Soy Desarrollador Senior Front-End, apasionado por crear experiencias web accesibles, de alto rendimiento y visualmente cuidadas. Disfruto transformar ideas complejas en interfaces intuitivas y precisas, donde el diseño y la ingeniería se complementan de manera equilibrada.",
+    "secondPart": "Actualmente formo parte del equipo de transformación digital de Grupo Ficohsa, donde desarrollo aplicaciones front-end modernas que permiten a los clientes abrir sus cuentas de ahorro de forma más rápida, sencilla y completamente en línea. Mi enfoque está en mejorar la usabilidad, accesibilidad y rendimiento de la plataforma.",
+    "thirdPart": "Anteriormente trabajé en Gaia Consultores, liderando proyectos de automatización y desarrollo full-stack. Diseñé e implementé soluciones RPA y web que optimizaron procesos internos y redujeron la carga operativa, utilizando tecnologías como React, Node.js y Express. En mis primeros años, en Victoria Importadora, mejoré el sistema principal de la empresa basado en Shopify, implementando nuevas funcionalidades, automatizando tareas de gestión de productos y creando una aplicación web de puntos desarrollada en React conectada con la API de Shopify. Mi experiencia me ha enseñado a abordar cada proyecto con un enfoque en el rendimiento, la escalabilidad y la experiencia del usuario, creando soluciones que no solo se ven bien, sino que también están diseñadas para perdurar."
+  },
+  "NavBar": {
+    "about": "Sobre mi",
+    "experience": "Experiencia",
+    "projects": "Proyectos"
+  },
+  "ExperienceSection": {
+    "experiences": [
+      {
+        "period": "2014 - presente",
+        "title": "Desarrollador Senior Frontend",
+        "company": "Grupo Ficohsa",
+        "content": "Formo parte de la transformación digital del área de cuentas de ahorro, desarrollando experiencias digitales que facilitan a los clientes la apertura de sus cuentas de manera rápida, intuitiva y totalmente en línea, desarrollando y manteniendo aplicaciones frontend modernas con tecnologías actuales, colaborando estrechamente con equipos de back-end y otros departamentos para integrar de manera confiable la información financiera, y buscando mejorar continuamente la experiencia del usuario y el rendimiento de las plataformas para que la interacción con los servicios digitales sea más rápida y amigable.",
+        "badges": ["Javascript", "Typescript"],
+        "link": "https://www.grupoficohsa.com/"
+      },
+      {
+        "period": "2023 - 2024",
+        "title": "Desarrollador Senior RPA",
+        "company": "Grupo Ficohsa",
+        "content": "Me dediqué a liderar la automatización y mejora de procesos, definiendo la arquitectura de los bots, seleccionando las tecnologías y herramientas a utilizar, y siendo responsable de todo el ciclo de vida de los procesos. Mi enfoque estaba en reducir la carga operativa y aumentar la eficiencia en distintos departamentos, asegurando que las soluciones fueran escalables, confiables y fáciles de mantener.",
+        "badges": ["Javascript"],
+        "link": "https://gaiaconsultoresrpa.com/somos-gaia-consultores/"
+      }
+    ]
+  }
+}

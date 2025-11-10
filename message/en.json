@@ -1,0 +1,37 @@
+{
+  "HeroContent": {
+    "subtitle": "Front-End Developer",
+    "shortPharse": "I'm passionate about crafting accessible digital experiences with thoughtful, detail-oriented design."
+  },
+  "AboutMe": {
+    "firstPart": "I'm a Senior Front-End Developer passionate about creating accessible, high-performance, and visually refined web experiences. I enjoy turning complex ideas into intuitive, precise interfaces where design and engineering work together in perfect balance.",
+    "secondPart": "I'm currently part of Grupo Ficohsa's digital transformation team, where I develop modern front-end applications that allow clients to open savings accounts faster, more easily, and entirely online. My focus is on improving the platform's usability, accessibility, and performance.",
+    "thirdPart": "Previously, I worked at Gaia Consultores, leading automation and full-stack development projects. I designed and implemented RPA and web solutions that optimized internal processes and reduced operational workload, using technologies like React, Node.js, and Express. Earlier in my career, at Victoria Importadora, I enhanced the company's core Shopify system by implementing new features, automating product management tasks, and creating a React-based points web app integrated with the Shopify API. My experience has taught me to approach every project with a focus on performance, scalability, and user experience — building solutions that not only look great but are also made to last."
+  },
+  "NavBar": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects"
+  },
+  "ExperienceSection": {
+    "experiences": [
+      {
+        "period": "2014 - present",
+        "title": "Senior Front-End Developer",
+        "company":"Grupo Ficohsa",
+        "content": "I am part of the digital transformation of the savings accounts area, developing digital experiences that make it easier for customers to open their accounts quickly, intuitively, and completely online. I develop and maintain modern front-end applications using current technologies, closely collaborate with back-end teams and other departments to reliably integrate financial information, and continuously work to improve user experience and platform performance, ensuring faster and more user-friendly digital interactions.",
+        "badges": ["Javascript", "Typescript"],
+        "link": "https://www.grupoficohsa.com/"
+      },
+
+      {
+        "period": "2023 - 2024",
+        "company":"Gaia consultores",
+        "title": "Senior RPA Developer",
+        "content": "I focused on leading process automation and improvement, defining bot architecture, selecting technologies and tools, and overseeing the entire process lifecycle. My goal was to reduce operational workload and increase efficiency across departments, ensuring that the solutions were scalable, reliable, and easy to maintain.",
+        "badges": ["Javascript"],
+        "link": "https://gaiaconsultoresrpa.com/somos-gaia-consultores/"
+      }
+    ]
+  }
+}
