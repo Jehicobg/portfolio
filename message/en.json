@@ -21,7 +21,14 @@
         "title": "Senior Front-End Developer",
         "company": "Grupo Ficohsa",
         "content": "I'm part of the digital transformation of the savings accounts division, developing modern front-end applications that make it easy for clients to open their accounts quickly, intuitively, and entirely online. I collaborate closely with back-end teams and other departments to reliably integrate financial data, continuously improving both the user experience and platform performance to make every digital interaction faster and more seamless.",
-        "badges": ["JavaScript", "TypeScript"],
+        "badges": [
+          "Next.js",
+          "Typescript",
+          "Storybook",
+          "Figma",
+          "Jira",
+          "Azure"
+        ],
         "link": "https://www.grupoficohsa.com/"
       },
       {
@@ -29,7 +36,7 @@
         "title": "Senior RPA Developer",
         "company": "Gaia Consultores",
         "content": "I led automation and process improvement initiatives, defining bot architectures, selecting tools and technologies, and overseeing the entire process lifecycle. My focus was on reducing operational workloads and increasing efficiency across departments while ensuring that every solution was scalable, reliable, and easy to maintain.",
-        "badges": ["JavaScript"],
+        "badges": ["Javascript", "Vbscript", "Agility", "Electroneeck"],
         "link": "https://gaiaconsultoresrpa.com/somos-gaia-consultores/"
       },
       {
@@ -37,7 +44,7 @@
         "title": "Front/Back-End Developer",
         "company": "Gaia Consultores",
         "content": "I was responsible for gathering requirements, analyzing, and designing integrated solutions to automate processes, developing web applications and APIs that supported both RPA bots and end users.",
-        "badges": ["JavaScript"],
+        "badges": ["Javascript", "Express", "Node.js", "React"],
         "link": "https://gaiaconsultoresrpa.com/somos-gaia-consultores/"
       },
       {
@@ -45,7 +52,7 @@
         "title": "RPA Developer",
         "company": "Gaia Consultores",
         "content": "I worked on automating and improving business processes through RPA solutions, based on workflows defined by project leads. My goal was to reduce manual workloads and boost efficiency while collaborating closely with teams and stakeholders to ensure reliable and functional automation.",
-        "badges": ["JavaScript"],
+        "badges": ["Agility", "Javascript", "HTML & CSS", "Node.js"],
         "link": "https://gaiaconsultoresrpa.com/somos-gaia-consultores/"
       },
       {
@@ -53,7 +60,7 @@
         "title": "Front/Back-End Developer",
         "company": "Importadora Victoria",
         "content": "I developed and maintained the company's core system using Shopify, improving both internal operations and the overall digital experience to make processes more efficient and user-friendly.",
-        "badges": ["JavaScript"],
+        "badges": ["Liquid", "React", "Shopify", "Node.js", "Express"],
         "link": "https://victoriaecuador.com/"
       }
     ]
