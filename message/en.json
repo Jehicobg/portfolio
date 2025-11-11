@@ -3,34 +3,75 @@
     "subtitle": "Front-End Developer",
     "shortPharse": "I'm passionate about crafting accessible digital experiences with thoughtful, detail-oriented design."
   },
-  "AboutMe": {
-    "firstPart": "I'm a Senior Front-End Developer passionate about creating accessible, high-performance, and visually refined web experiences. I enjoy turning complex ideas into intuitive, precise interfaces where design and engineering work together in perfect balance.",
-    "secondPart": "I'm currently part of Grupo Ficohsa's digital transformation team, where I develop modern front-end applications that allow clients to open savings accounts faster, more easily, and entirely online. My focus is on improving the platform's usability, accessibility, and performance.",
-    "thirdPart": "Previously, I worked at Gaia Consultores, leading automation and full-stack development projects. I designed and implemented RPA and web solutions that optimized internal processes and reduced operational workload, using technologies like React, Node.js, and Express. Earlier in my career, at Victoria Importadora, I enhanced the company's core Shopify system by implementing new features, automating product management tasks, and creating a React-based points web app integrated with the Shopify API. My experience has taught me to approach every project with a focus on performance, scalability, and user experience — building solutions that not only look great but are also made to last."
-  },
+  "AboutMe": [
+    "I'm a Senior Front-End Developer, passionate about creating accessible web experiences while paying attention to every detail.",
+    "I'm currently part of the Digital Transformation team at Grupo Ficohsa, where I develop modern front-end applications that allow clients to open savings accounts faster, more easily, and entirely online. My focus is on improving usability, accessibility, and building new digital products.",
+    "Previously, I worked at Gaia Consultores, leading automation and full-stack development projects. I designed and implemented RPA and web solutions that optimized internal processes and reduced operational workload, using technologies such as React, Node.js, and Express.",
+    "At Victoria Importadora, I implemented new features in the existing theme and built a React-based web application for a loyalty points system connected to the Shopify API. My experience has taught me to approach every project with a focus on performance, scalability, and user experience."
+  ],
   "NavBar": {
     "about": "About",
-    "experience": "Experience",
+    "experiences": "Experience",
     "projects": "Projects"
   },
   "ExperienceSection": {
     "experiences": [
       {
-        "period": "2014 - present",
+        "period": "2014 - Present",
         "title": "Senior Front-End Developer",
-        "company":"Grupo Ficohsa",
-        "content": "I am part of the digital transformation of the savings accounts area, developing digital experiences that make it easier for customers to open their accounts quickly, intuitively, and completely online. I develop and maintain modern front-end applications using current technologies, closely collaborate with back-end teams and other departments to reliably integrate financial information, and continuously work to improve user experience and platform performance, ensuring faster and more user-friendly digital interactions.",
-        "badges": ["Javascript", "Typescript"],
+        "company": "Grupo Ficohsa",
+        "content": "I'm part of the digital transformation of the savings accounts division, developing modern front-end applications that make it easy for clients to open their accounts quickly, intuitively, and entirely online. I collaborate closely with back-end teams and other departments to reliably integrate financial data, continuously improving both the user experience and platform performance to make every digital interaction faster and more seamless.",
+        "badges": ["JavaScript", "TypeScript"],
         "link": "https://www.grupoficohsa.com/"
       },
-
       {
         "period": "2023 - 2024",
-        "company":"Gaia consultores",
         "title": "Senior RPA Developer",
-        "content": "I focused on leading process automation and improvement, defining bot architecture, selecting technologies and tools, and overseeing the entire process lifecycle. My goal was to reduce operational workload and increase efficiency across departments, ensuring that the solutions were scalable, reliable, and easy to maintain.",
-        "badges": ["Javascript"],
+        "company": "Gaia Consultores",
+        "content": "I led automation and process improvement initiatives, defining bot architectures, selecting tools and technologies, and overseeing the entire process lifecycle. My focus was on reducing operational workloads and increasing efficiency across departments while ensuring that every solution was scalable, reliable, and easy to maintain.",
+        "badges": ["JavaScript"],
         "link": "https://gaiaconsultoresrpa.com/somos-gaia-consultores/"
+      },
+      {
+        "period": "2021 - 2023",
+        "title": "Front/Back-End Developer",
+        "company": "Gaia Consultores",
+        "content": "I was responsible for gathering requirements, analyzing, and designing integrated solutions to automate processes, developing web applications and APIs that supported both RPA bots and end users.",
+        "badges": ["JavaScript"],
+        "link": "https://gaiaconsultoresrpa.com/somos-gaia-consultores/"
+      },
+      {
+        "period": "2019 - 2021",
+        "title": "RPA Developer",
+        "company": "Gaia Consultores",
+        "content": "I worked on automating and improving business processes through RPA solutions, based on workflows defined by project leads. My goal was to reduce manual workloads and boost efficiency while collaborating closely with teams and stakeholders to ensure reliable and functional automation.",
+        "badges": ["JavaScript"],
+        "link": "https://gaiaconsultoresrpa.com/somos-gaia-consultores/"
+      },
+      {
+        "period": "2015 - 2019",
+        "title": "Front/Back-End Developer",
+        "company": "Importadora Victoria",
+        "content": "I developed and maintained the company's core system using Shopify, improving both internal operations and the overall digital experience to make processes more efficient and user-friendly.",
+        "badges": ["JavaScript"],
+        "link": "https://victoriaecuador.com/"
+      }
+    ]
+  },
+  "ProjectsSection": {
+    "projects": [
+      {
+        "title": "Microfrontend Pokémon",
+        "content": "Aplicación web creada con la API de Pokémon para demostrar el uso de microfrontends. Incluye temas como consumo de APIs REST, arquitectura modular, React, comunicación entre módulos y despliegue independiente.",
+        "badges": [
+          "Javascript",
+          "Typescript",
+          "React",
+          "Next.js",
+          "Module Federation"
+        ],
+        "link": "https://host-woad.vercel.app/",
+        "image": "/microfrontend_pokemon.png"
       }
     ]
   }

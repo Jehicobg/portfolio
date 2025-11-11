@@ -17,8 +17,10 @@ const ToggleTranslation = ({
         ES
       </span>
       <button
+        type="button"
         onClick={onToggle}
         className="cursor-pointer transition-all duration-300"
+        title="Toggle language"
       >
         {currentLang === "es" ? <ToggleLeft /> : <ToggleRight />}
       </button>

@@ -3,14 +3,15 @@
     "subtitle": "Desarrollador Frontend",
     "shortPharse": "Me apasiona crear experiencias digitales accesibles y con un diseño que cuida cada detalle."
   },
-  "AboutMe": {
-    "firstPart": "Soy Desarrollador Senior Front-End, apasionado por crear experiencias web accesibles, de alto rendimiento y visualmente cuidadas. Disfruto transformar ideas complejas en interfaces intuitivas y precisas, donde el diseño y la ingeniería se complementan de manera equilibrada.",
-    "secondPart": "Actualmente formo parte del equipo de transformación digital de Grupo Ficohsa, donde desarrollo aplicaciones front-end modernas que permiten a los clientes abrir sus cuentas de ahorro de forma más rápida, sencilla y completamente en línea. Mi enfoque está en mejorar la usabilidad, accesibilidad y rendimiento de la plataforma.",
-    "thirdPart": "Anteriormente trabajé en Gaia Consultores, liderando proyectos de automatización y desarrollo full-stack. Diseñé e implementé soluciones RPA y web que optimizaron procesos internos y redujeron la carga operativa, utilizando tecnologías como React, Node.js y Express. En mis primeros años, en Victoria Importadora, mejoré el sistema principal de la empresa basado en Shopify, implementando nuevas funcionalidades, automatizando tareas de gestión de productos y creando una aplicación web de puntos desarrollada en React conectada con la API de Shopify. Mi experiencia me ha enseñado a abordar cada proyecto con un enfoque en el rendimiento, la escalabilidad y la experiencia del usuario, creando soluciones que no solo se ven bien, sino que también están diseñadas para perdurar."
-  },
+  "AboutMe": [
+    "Soy Desarrollador Senior Front-End, apasionado por crear experiencias web accesibles cuidando cada detalle.",
+    "Actualmente formo parte del equipo de transformación digital de Grupo Ficohsa, donde desarrollo aplicaciones front-end modernas que permiten a los clientes abrir sus cuentas de ahorro de forma más rápida, sencilla y completamente en línea. Mi enfoque está en mejorar la usabilidad, accesibilidad y la creación de nuevos productos.",
+    "Anteriormente trabajé en Gaia Consultores, liderando proyectos de automatización y desarrollo full-stack. Diseñé e implementé soluciones RPA y web que optimizaron procesos internos y redujeron la carga operativa, utilizando tecnologías como React, Node.js y Express.",
+    "En Victoria Importadora, implemente nuevas funcionalidades al tema actual, tambien creé una aplicación web de puntos en React conectada con la API de Shopify. Mi experiencia me ha enseñado a abordar cada proyecto con un enfoque en el rendimiento, la escalabilidad y la experiencia del usuario."
+  ],
   "NavBar": {
     "about": "Sobre mi",
-    "experience": "Experiencia",
+    "experiences": "Experiencia",
     "projects": "Proyectos"
   },
   "ExperienceSection": {
@@ -20,16 +21,64 @@
         "title": "Desarrollador Senior Frontend",
         "company": "Grupo Ficohsa",
         "content": "Formo parte de la transformación digital del área de cuentas de ahorro, desarrollando experiencias digitales que facilitan a los clientes la apertura de sus cuentas de manera rápida, intuitiva y totalmente en línea, desarrollando y manteniendo aplicaciones frontend modernas con tecnologías actuales, colaborando estrechamente con equipos de back-end y otros departamentos para integrar de manera confiable la información financiera, y buscando mejorar continuamente la experiencia del usuario y el rendimiento de las plataformas para que la interacción con los servicios digitales sea más rápida y amigable.",
-        "badges": ["Javascript", "Typescript"],
+        "badges": [
+          "Next.js",
+          "Typescript",
+          "Storybook",
+          "Figma",
+          "Jira",
+          "Azure"
+        ],
         "link": "https://www.grupoficohsa.com/"
       },
       {
         "period": "2023 - 2024",
         "title": "Desarrollador Senior RPA",
-        "company": "Grupo Ficohsa",
+        "company": "Gaia consultores",
         "content": "Me dediqué a liderar la automatización y mejora de procesos, definiendo la arquitectura de los bots, seleccionando las tecnologías y herramientas a utilizar, y siendo responsable de todo el ciclo de vida de los procesos. Mi enfoque estaba en reducir la carga operativa y aumentar la eficiencia en distintos departamentos, asegurando que las soluciones fueran escalables, confiables y fáciles de mantener.",
-        "badges": ["Javascript"],
+        "badges": ["Javascript", "Vbscript", "Agility", "Electroneeck"],
         "link": "https://gaiaconsultoresrpa.com/somos-gaia-consultores/"
+      },
+      {
+        "period": "2021 - 2023",
+        "title": "Desarrollador Front/Back-End",
+        "company": "Gaia consultores",
+        "content": "Me encargué del levantamiento, análisis y diseño de soluciones integrales para automatizar procesos, integrando aplicaciones web y APIs que facilitan el trabajo de los bots RPA y de los usuarios.",
+        "badges": ["Javascript", "Express", "Node.js", "React"],
+        "link": "https://gaiaconsultoresrpa.com/somos-gaia-consultores/"
+      },
+      {
+        "period": "2019 - 2021",
+        "title": "Desarrollador RPA",
+        "company": "Gaia consultores",
+        "content": "Me dediqué a automatizar y mejorar procesos mediante el desarrollo de soluciones RPA, trabajando sobre los procesos definidos por los líderes del proyecto. Mi objetivo era reducir la carga operativa y aumentar la eficiencia en distintos departamentos, colaborando estrechamente con equipos y stakeholders para que las soluciones fueran confiables y funcionales.",
+        "badges": ["Agility", "Javascript", "HTML & CSS", "Node.js"],
+        "link": "https://gaiaconsultoresrpa.com/somos-gaia-consultores/"
+      },
+      {
+        "period": "2015 - 2019",
+        "title": "Desarrollador Front/Back-End",
+        "company": "Importadora Victoria",
+        "content": "Me encargué del desarrollo y mantenimiento del sistema core de la empresa usando Shopify, buscando que las operaciones internas y la experiencia digital fueran más eficientes y fáciles de usar.",
+        "badges": ["Liquid", "React", "Shopify", "Node.js", "Express"],
+        "link": "https://victoriaecuador.com/"
+      }
+    ]
+  },
+  "ProjectsSection": {
+    "projects": [
+      {
+        "title": "Microfrontend Pokémon",
+        "content": "Aplicación web creada con la API de Pokémon para demostrar el uso de microfrontends. Incluye temas como consumo de APIs REST, arquitectura modular, React, comunicación entre módulos y despliegue independiente.",
+        "badges": [
+          "Javascript",
+          "Typescript",
+          "React",
+          "Next.js",
+          "Module Federation"
+        ],
+        "link": "https://host-woad.vercel.app/",
+        "image": "/microfrontend_pokemon.png"
       }
     ]
   }

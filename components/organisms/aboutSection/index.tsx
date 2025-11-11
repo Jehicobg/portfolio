@@ -15,7 +15,7 @@ const AboutSection = () => {
 
   return (
     <section
-      className="flex flex-col py-26 relative"
+      className="flex flex-col pt-16 lg:py-26 lg:relative"
       id="about"
       aria-label="About me"
     >

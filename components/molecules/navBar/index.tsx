@@ -1,6 +1,8 @@
 import ItemNavBar from "@/components/atoms/itemNavBar";
 import LocaleHashLink from "@/components/atoms/localeHashLink";
-import { useState } from "react";
+import { SECTIONS } from "@/core/utils";
+import { useSectionObserver } from "@/hooks/useSectionObserver";
+import { useEffect, useState } from "react";
 
 interface NavBarProps {
   items: {
@@ -10,14 +12,19 @@ interface NavBarProps {
 }
 
 const NavBar = ({ items }: NavBarProps) => {
-  const [currentHash, setCurrentHash] = useState("");
+  const { activeSection } = useSectionObserver(SECTIONS);
+  const [currentHash, setCurrentHash] = useState(activeSection);
 
   const handleClick = ({ hash }: { hash: string }) => {
     setCurrentHash(hash);
   };
 
+  useEffect(() => {
+    setCurrentHash(activeSection);
+  }, [activeSection]);
+
   return (
-    <nav>
+    <nav className="hidden lg:block" aria-label="In-page jump links">
       <ul className="mt-16">
         {items.map(({ hash, label }, i) => {
           return (

@@ -7,3 +7,5 @@ export const generateNewRoute = ({
 }) => {
   return `/${language}${pathname.replace(/^\/(en|es)/, "")}`;
 };
+
+export const SECTIONS = ["about", "experiences", "projects"];

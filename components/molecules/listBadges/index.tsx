@@ -6,7 +6,7 @@ interface ListBadgesProps {
 
 const ListBadges = ({ items }: ListBadgesProps) => {
   return (
-    <ul className="mt-2 flex flex-wrap">
+    <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
       {items.map((item) => {
         return (
           <li className="mr-1.5 mt-2" key={item}>

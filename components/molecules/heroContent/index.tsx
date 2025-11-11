@@ -14,7 +14,7 @@ const HeroContent = () => {
         <Link href={"/"}>Jehicob Guerrero</Link>
       </Typography>
       <Typography variant="h2">{t("subtitle")}</Typography>
-      <Typography variant="p" className="max-w-xs mt-4">
+      <Typography variant="p" className="max-w-xs mt-4 text-base!">
         {t("shortPharse")}
       </Typography>
     </>

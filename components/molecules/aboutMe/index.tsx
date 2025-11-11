@@ -1,17 +1,21 @@
 import Typography from "@/components/atoms/typography";
 import { useTranslations } from "next-intl";
+import HeaderSectionMobile from "@/components/atoms/headerSectionMobile";
 
 const AboutMe = () => {
-  const t = useTranslations("AboutMe");
+  const t_array = useTranslations().raw("AboutMe") as string[];
+  const t_nav = useTranslations("NavBar");
+
   return (
     <>
-      <Typography variant="p">{t("firstPart")}</Typography>
-      <Typography variant="p" className="mt-4">
-        {t("secondPart")}
-      </Typography>
-      <Typography variant="p" className="mt-4">
-        {t("thirdPart")}
-      </Typography>
+      <HeaderSectionMobile title={t_nav("about")} />
+      {t_array?.map((t) => {
+        return (
+          <Typography key={t} variant="p" className="mb-4 text-base!">
+            {t}
+          </Typography>
+        );
+      })}
     </>
   );
 };
