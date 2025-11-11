@@ -1,11 +1,11 @@
-import LinkHeader from "@/components/atoms/linkHeader";
-import PeriodTime from "@/components/atoms/periodTime";
-import Typography from "@/components/atoms/typography";
-import ListBadges from "../listBadges";
-import HeaderCard from "@/components/atoms/headerCard";
-import ShadowCard from "@/components/atoms/shadowCard";
 import Card from "@/components/atoms/card";
 import CardContent from "@/components/atoms/cardContent";
+import HeaderCard from "@/components/atoms/headerCard";
+import LinkAnimated from "@/components/atoms/linkAnimated";
+import PeriodTime from "@/components/atoms/periodTime";
+import ShadowCard from "@/components/atoms/shadowCard";
+import Typography from "@/components/atoms/typography";
+import ListBadges from "../listBadges";
 
 export type ExperienceItemData = {
   period: string;
@@ -32,7 +32,7 @@ const ExperienceItem = ({
           <Typography variant="h3" className="group-hover:text-teal-300">
             <div className="mb-3">
               <HeaderCard title={title} company={company} />
-              {link && <LinkHeader to={link} label={title} />}
+              {link && <LinkAnimated to={link} label={title} />}
             </div>
           </Typography>
           <Typography variant="p">{content}</Typography>

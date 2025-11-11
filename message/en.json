@@ -63,13 +63,17 @@
         "badges": ["Liquid", "React", "Shopify", "Node.js", "Express"],
         "link": "https://victoriaecuador.com/"
       }
-    ]
+    ],
+    "resume":{
+      "label":"View Full Résumé",
+      "link":"https://drive.google.com/file/d/1EPFnIKerJJ-oZPtjckNBBIoSE-N4QJgv/view?usp=sharing"
+    }
   },
   "ProjectsSection": {
     "projects": [
       {
         "title": "Microfrontend Pokémon",
-        "content": "Aplicación web creada con la API de Pokémon para demostrar el uso de microfrontends. Incluye temas como consumo de APIs REST, arquitectura modular, React, comunicación entre módulos y despliegue independiente.",
+        "content": "Web application built with the Pokémon API to demonstrate the use of microfrontends. It includes topics such as REST API consumption, modular architecture, React, inter-module communication, and independent deployment.",
         "badges": [
           "Javascript",
           "Typescript",

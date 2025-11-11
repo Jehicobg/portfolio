@@ -1,11 +1,11 @@
 import Card from "@/components/atoms/card";
 import CardContent from "@/components/atoms/cardContent";
 import HeaderCard from "@/components/atoms/headerCard";
-import LinkHeader from "@/components/atoms/linkHeader";
+import ImageHeader from "@/components/atoms/imageHeader";
+import LinkAnimated from "@/components/atoms/linkAnimated";
 import ShadowCard from "@/components/atoms/shadowCard";
 import Typography from "@/components/atoms/typography";
 import ListBadges from "../listBadges";
-import ImageHeader from "@/components/atoms/imageHeader";
 
 export type ProjectItemData = {
   title: string;
@@ -31,7 +31,7 @@ const ProjectItem = ({
           <Typography variant="h3" className="group-hover:text-teal-300">
             <div className="mb-3">
               <HeaderCard title={title} />
-              {link && <LinkHeader to={link} />}
+              {link && <LinkAnimated to={link} />}
             </div>
           </Typography>
           <Typography variant="p">{content}</Typography>

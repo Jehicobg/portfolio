@@ -10,7 +10,7 @@ const ProjectSection = () => {
   const projects = Object.values(t.raw("projects")) as ProjectItemData[];
 
   return (
-    <section id="projects">
+    <section id="projects" className="lg:mb-26">
       <HeaderSectionMobile title={t_nav("projects")} />
       <ol className="group/list">
         {projects?.map((project, index) => {
