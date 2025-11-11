@@ -63,7 +63,11 @@
         "badges": ["Liquid", "React", "Shopify", "Node.js", "Express"],
         "link": "https://victoriaecuador.com/"
       }
-    ]
+    ],
+    "resume":{
+      "label":"Curriculum completo",
+      "link":"https://drive.google.com/file/d/1c6CFdP1VqarKmmJluFr1OIQIYqsy0gRI/view?usp=sharing"
+    }
   },
   "ProjectsSection": {
     "projects": [
